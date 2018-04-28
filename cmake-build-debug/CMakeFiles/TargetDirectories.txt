@@ -1,0 +1,3 @@
+/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/Proyecto2_Odissey.dir
