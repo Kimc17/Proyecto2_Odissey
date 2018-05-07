@@ -48,10 +48,10 @@ RM = /opt/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kimberlyc/CLionProjects/Proyecto2_Odissey
+CMAKE_SOURCE_DIR = /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/CMakeFiles /home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,86 @@ Proyecto2_Odissey/fast:
 	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/build
 .PHONY : Proyecto2_Odissey/fast
 
-main.o: main.cpp.o
+.idea/Chunk.o: .idea/Chunk.cpp.o
 
-.PHONY : main.o
+.PHONY : .idea/Chunk.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o
-.PHONY : main.cpp.o
+.idea/Chunk.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o
+.PHONY : .idea/Chunk.cpp.o
 
-main.i: main.cpp.i
+.idea/Chunk.i: .idea/Chunk.cpp.i
 
-.PHONY : main.i
+.PHONY : .idea/Chunk.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/main.cpp.i
-.PHONY : main.cpp.i
+.idea/Chunk.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.i
+.PHONY : .idea/Chunk.cpp.i
 
-main.s: main.cpp.s
+.idea/Chunk.s: .idea/Chunk.cpp.s
 
-.PHONY : main.s
+.PHONY : .idea/Chunk.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/main.cpp.s
-.PHONY : main.cpp.s
+.idea/Chunk.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.s
+.PHONY : .idea/Chunk.cpp.s
+
+Base64.o: Base64.cpp.o
+
+.PHONY : Base64.o
+
+# target to build an object file
+Base64.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o
+.PHONY : Base64.cpp.o
+
+Base64.i: Base64.cpp.i
+
+.PHONY : Base64.i
+
+# target to preprocess a source file
+Base64.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.i
+.PHONY : Base64.cpp.i
+
+Base64.s: Base64.cpp.s
+
+.PHONY : Base64.s
+
+# target to generate assembly for a file
+Base64.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.s
+.PHONY : Base64.cpp.s
+
+Odyssey_Server.o: Odyssey_Server.cpp.o
+
+.PHONY : Odyssey_Server.o
+
+# target to build an object file
+Odyssey_Server.cpp.o:
+	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o
+.PHONY : Odyssey_Server.cpp.o
+
+Odyssey_Server.i: Odyssey_Server.cpp.i
+
+.PHONY : Odyssey_Server.i
+
+# target to preprocess a source file
+Odyssey_Server.cpp.i:
+	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.i
+.PHONY : Odyssey_Server.cpp.i
+
+Odyssey_Server.s: Odyssey_Server.cpp.s
+
+.PHONY : Odyssey_Server.s
+
+# target to generate assembly for a file
+Odyssey_Server.cpp.s:
+	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.s
+.PHONY : Odyssey_Server.cpp.s
 
 # Help Target
 help:
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Proyecto2_Odissey"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... .idea/Chunk.o"
+	@echo "... .idea/Chunk.i"
+	@echo "... .idea/Chunk.s"
+	@echo "... Base64.o"
+	@echo "... Base64.i"
+	@echo "... Base64.s"
+	@echo "... Odyssey_Server.o"
+	@echo "... Odyssey_Server.i"
+	@echo "... Odyssey_Server.s"
 .PHONY : help
 
 

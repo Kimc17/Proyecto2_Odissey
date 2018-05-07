@@ -43,10 +43,10 @@ RM = /opt/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kimberlyc/CLionProjects/Proyecto2_Odissey
+CMAKE_SOURCE_DIR = /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proyecto2_Odissey.dir/depend.make
@@ -57,41 +57,93 @@ include CMakeFiles/Proyecto2_Odissey.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Proyecto2_Odissey.dir/flags.make
 
-CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o: CMakeFiles/Proyecto2_Odissey.dir/flags.make
-CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o -c /home/kimberlyc/CLionProjects/Proyecto2_Odissey/main.cpp
+CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o: CMakeFiles/Proyecto2_Odissey.dir/flags.make
+CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o: ../Odyssey_Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o -c /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Odyssey_Server.cpp
 
-CMakeFiles/Proyecto2_Odissey.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2_Odissey.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/Proyecto2_Odissey/main.cpp > CMakeFiles/Proyecto2_Odissey.dir/main.cpp.i
+CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Odyssey_Server.cpp > CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.i
 
-CMakeFiles/Proyecto2_Odissey.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2_Odissey.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/Proyecto2_Odissey/main.cpp -o CMakeFiles/Proyecto2_Odissey.dir/main.cpp.s
+CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Odyssey_Server.cpp -o CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.s
 
-CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o.requires:
+CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o.requires:
 
-.PHONY : CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o.requires
 
-CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o.provides: CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o.provides
+CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o.provides: CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o.provides.build
+.PHONY : CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o.provides
 
-CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o.provides.build: CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o
+CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o.provides.build: CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o
+
+
+CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o: CMakeFiles/Proyecto2_Odissey.dir/flags.make
+CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o: ../Base64.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o -c /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Base64.cpp
+
+CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Base64.cpp > CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.i
+
+CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Base64.cpp -o CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.s
+
+CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o.requires:
+
+.PHONY : CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o.requires
+
+CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o.provides: CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o.provides.build
+.PHONY : CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o.provides
+
+CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o.provides.build: CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o
+
+
+CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o: CMakeFiles/Proyecto2_Odissey.dir/flags.make
+CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o: ../.idea/Chunk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o -c /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/.idea/Chunk.cpp
+
+CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/.idea/Chunk.cpp > CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.i
+
+CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/.idea/Chunk.cpp -o CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.s
+
+CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o.requires:
+
+.PHONY : CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o.requires
+
+CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o.provides: CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o.provides.build
+.PHONY : CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o.provides
+
+CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o.provides.build: CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o
 
 
 # Object files for target Proyecto2_Odissey
 Proyecto2_Odissey_OBJECTS = \
-"CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o"
+"CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o" \
+"CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o" \
+"CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o"
 
 # External object files for target Proyecto2_Odissey
 Proyecto2_Odissey_EXTERNAL_OBJECTS =
 
-Proyecto2_Odissey: CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o
+Proyecto2_Odissey: CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o
+Proyecto2_Odissey: CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o
+Proyecto2_Odissey: CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o
 Proyecto2_Odissey: CMakeFiles/Proyecto2_Odissey.dir/build.make
 Proyecto2_Odissey: CMakeFiles/Proyecto2_Odissey.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Proyecto2_Odissey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Proyecto2_Odissey"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Proyecto2_Odissey.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +151,9 @@ CMakeFiles/Proyecto2_Odissey.dir/build: Proyecto2_Odissey
 
 .PHONY : CMakeFiles/Proyecto2_Odissey.dir/build
 
-CMakeFiles/Proyecto2_Odissey.dir/requires: CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o.requires
+CMakeFiles/Proyecto2_Odissey.dir/requires: CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o.requires
+CMakeFiles/Proyecto2_Odissey.dir/requires: CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o.requires
+CMakeFiles/Proyecto2_Odissey.dir/requires: CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o.requires
 
 .PHONY : CMakeFiles/Proyecto2_Odissey.dir/requires
 
@@ -108,6 +162,6 @@ CMakeFiles/Proyecto2_Odissey.dir/clean:
 .PHONY : CMakeFiles/Proyecto2_Odissey.dir/clean
 
 CMakeFiles/Proyecto2_Odissey.dir/depend:
-	cd /home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kimberlyc/CLionProjects/Proyecto2_Odissey /home/kimberlyc/CLionProjects/Proyecto2_Odissey /home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug /home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug /home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/Proyecto2_Odissey.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/Proyecto2_Odissey.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto2_Odissey.dir/depend
 

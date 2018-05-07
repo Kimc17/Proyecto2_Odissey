@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug"/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug"/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug"/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto2_Odissey">
-				<Option output="/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Proyecto2_Odissey" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug"/>
+				<Option output="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Proyecto2_Odissey" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto2_Odissey"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto2_Odissey"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto2_Odissey/fast">
-				<Option output="/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Proyecto2_Odissey" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug"/>
+				<Option output="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Proyecto2_Odissey" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,17 +77,38 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto2_Odissey/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto2_Odissey/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto2_Odissey/main.cpp">
+		<Unit filename="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/.idea/Chunk.cpp">
 			<Option target="Proyecto2_Odissey"/>
 		</Unit>
-		<Unit filename="/home/kimberlyc/CLionProjects/Proyecto2_Odissey/CMakeLists.txt">
+		<Unit filename="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/.idea/Chunk.h">
+			<Option target="Proyecto2_Odissey"/>
+		</Unit>
+		<Unit filename="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/.idea/Lista.h">
+			<Option target="Proyecto2_Odissey"/>
+		</Unit>
+		<Unit filename="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/.idea/MetaData.h">
+			<Option target="Proyecto2_Odissey"/>
+		</Unit>
+		<Unit filename="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Base64.cpp">
+			<Option target="Proyecto2_Odissey"/>
+		</Unit>
+		<Unit filename="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Base64.h">
+			<Option target="Proyecto2_Odissey"/>
+		</Unit>
+		<Unit filename="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Odyssey_Server.cpp">
+			<Option target="Proyecto2_Odissey"/>
+		</Unit>
+		<Unit filename="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Odyssey_Server.h">
+			<Option target="Proyecto2_Odissey"/>
+		</Unit>
+		<Unit filename="/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
