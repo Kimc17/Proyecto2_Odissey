@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/.idea/Chunk.cpp" "/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o"
-  "/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Base64.cpp" "/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o"
-  "/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Odyssey_Server.cpp" "/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o"
+  "/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/XML/XML_Editor.cpp" "/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/Proyecto2_Odissey.dir/XML/XML_Editor.cpp.o"
+  "/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/XML/pugixml.cpp" "/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/Proyecto2_Odissey.dir/XML/pugixml.cpp.o"
+  "/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/main.cpp" "/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
