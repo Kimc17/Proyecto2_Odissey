@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Proyecto2_Odissey.dir/XML/XML_Editor.cpp.o"
-  "CMakeFiles/Proyecto2_Odissey.dir/XML/pugixml.cpp.o"
-  "CMakeFiles/Proyecto2_Odissey.dir/main.cpp.o"
+  "CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o"
+  "CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o"
+  "CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o"
   "Proyecto2_Odissey.pdb"
   "Proyecto2_Odissey"
 )

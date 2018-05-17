@@ -6,71 +6,67 @@
 
 #IncludeRegexTransform: 
 
-/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/XML/XML_Editor.cpp
+/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/.idea/Chunk.cpp
+Chunk.h
+/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/.idea/Chunk.h
+Chunk.h
+/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/.idea/Chunk.h
+../Base64.h
+/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Base64.h
+
+/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/.idea/Chunk.h
+iostream
+-
+cstdio
+-
+
+/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Base64.cpp
+Base64.h
+/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Base64.h
+sstream
+-
+
+/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Base64.h
+iostream
+-
+string
+-
+math.h
+-
+cstdio
+-
+cstdlib
+-
+
+/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Odyssey_Server.cpp
+Odyssey_Server.h
+/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Odyssey_Server.h
+Base64.h
+/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Base64.h
+.idea/Chunk.h
+/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/.idea/Chunk.h
+
+/home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/Odyssey_Server.h
+stdlib.h
+-
+string
+-
 iostream
 -
 sstream
--
-XML_Editor.h
-/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/XML/XML_Editor.h
-
-/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/XML/XML_Editor.h
-pugixml.hpp
-/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/XML/pugixml.hpp
-
-/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/XML/pugiconfig.hpp
-
-/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/XML/pugixml.cpp
-pugixml.hpp
-/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/XML/pugixml.hpp
-stdlib.h
 -
 stdio.h
 -
 string.h
 -
-assert.h
+sys/socket.h
 -
-limits.h
+arpa/inet.h
 -
-wchar.h
+unistd.h
 -
-math.h
+pthread.h
 -
-float.h
+jsoncpp/json/json.h
 -
-istream
--
-ostream
--
-string
--
-new
--
-stdint.h
--
-
-/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/XML/pugixml.hpp
-pugiconfig.hpp
-/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/XML/pugiconfig.hpp
-stddef.h
--
-exception
--
-iterator
--
-iosfwd
--
-string
--
-
-/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/main.cpp
-iostream
--
-sstream
--
-XML/pugixml.hpp
-/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/XML/pugixml.hpp
-XML/XML_Editor.h
-/home/karina/Dropbox/TEC/2018/Algoritmos y estructuras de datos II/Odyssey/Proyecto2_Odissey/XML/XML_Editor.h
 
