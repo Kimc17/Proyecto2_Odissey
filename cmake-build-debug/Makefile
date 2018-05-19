@@ -48,10 +48,10 @@ RM = /opt/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey
+CMAKE_SOURCE_DIR = /home/kimberlyc/CLionProjects/Main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kimberlyc/CLionProjects/Main/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kimberlyc/CLionProjects/Main/cmake-build-debug/CMakeFiles /home/kimberlyc/CLionProjects/Main/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kimberlyc/CLionProjects/Odissey/Proyecto2_Odissey/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kimberlyc/CLionProjects/Main/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Proyecto2_Odissey
+# Target rules for targets named Main
 
 # Build rule for target.
-Proyecto2_Odissey: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Proyecto2_Odissey
-.PHONY : Proyecto2_Odissey
+Main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Main
+.PHONY : Main
 
 # fast build rule for target.
-Proyecto2_Odissey/fast:
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/build
-.PHONY : Proyecto2_Odissey/fast
-
-.idea/Chunk.o: .idea/Chunk.cpp.o
-
-.PHONY : .idea/Chunk.o
-
-# target to build an object file
-.idea/Chunk.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.o
-.PHONY : .idea/Chunk.cpp.o
-
-.idea/Chunk.i: .idea/Chunk.cpp.i
-
-.PHONY : .idea/Chunk.i
-
-# target to preprocess a source file
-.idea/Chunk.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.i
-.PHONY : .idea/Chunk.cpp.i
-
-.idea/Chunk.s: .idea/Chunk.cpp.s
-
-.PHONY : .idea/Chunk.s
-
-# target to generate assembly for a file
-.idea/Chunk.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/.idea/Chunk.cpp.s
-.PHONY : .idea/Chunk.cpp.s
+Main/fast:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build
+.PHONY : Main/fast
 
 Base64.o: Base64.cpp.o
 
@@ -156,7 +129,7 @@ Base64.o: Base64.cpp.o
 
 # target to build an object file
 Base64.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.o
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Base64.cpp.o
 .PHONY : Base64.cpp.o
 
 Base64.i: Base64.cpp.i
@@ -165,7 +138,7 @@ Base64.i: Base64.cpp.i
 
 # target to preprocess a source file
 Base64.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.i
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Base64.cpp.i
 .PHONY : Base64.cpp.i
 
 Base64.s: Base64.cpp.s
@@ -174,35 +147,143 @@ Base64.s: Base64.cpp.s
 
 # target to generate assembly for a file
 Base64.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Base64.cpp.s
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Base64.cpp.s
 .PHONY : Base64.cpp.s
 
-Odyssey_Server.o: Odyssey_Server.cpp.o
+Chunk.o: Chunk.cpp.o
 
-.PHONY : Odyssey_Server.o
+.PHONY : Chunk.o
 
 # target to build an object file
-Odyssey_Server.cpp.o:
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.o
-.PHONY : Odyssey_Server.cpp.o
+Chunk.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Chunk.cpp.o
+.PHONY : Chunk.cpp.o
 
-Odyssey_Server.i: Odyssey_Server.cpp.i
+Chunk.i: Chunk.cpp.i
 
-.PHONY : Odyssey_Server.i
+.PHONY : Chunk.i
 
 # target to preprocess a source file
-Odyssey_Server.cpp.i:
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.i
-.PHONY : Odyssey_Server.cpp.i
+Chunk.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Chunk.cpp.i
+.PHONY : Chunk.cpp.i
 
-Odyssey_Server.s: Odyssey_Server.cpp.s
+Chunk.s: Chunk.cpp.s
 
-.PHONY : Odyssey_Server.s
+.PHONY : Chunk.s
 
 # target to generate assembly for a file
-Odyssey_Server.cpp.s:
-	$(MAKE) -f CMakeFiles/Proyecto2_Odissey.dir/build.make CMakeFiles/Proyecto2_Odissey.dir/Odyssey_Server.cpp.s
-.PHONY : Odyssey_Server.cpp.s
+Chunk.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Chunk.cpp.s
+.PHONY : Chunk.cpp.s
+
+Oddysey_server.o: Oddysey_server.cpp.o
+
+.PHONY : Oddysey_server.o
+
+# target to build an object file
+Oddysey_server.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Oddysey_server.cpp.o
+.PHONY : Oddysey_server.cpp.o
+
+Oddysey_server.i: Oddysey_server.cpp.i
+
+.PHONY : Oddysey_server.i
+
+# target to preprocess a source file
+Oddysey_server.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Oddysey_server.cpp.i
+.PHONY : Oddysey_server.cpp.i
+
+Oddysey_server.s: Oddysey_server.cpp.s
+
+.PHONY : Oddysey_server.s
+
+# target to generate assembly for a file
+Oddysey_server.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/Oddysey_server.cpp.s
+.PHONY : Oddysey_server.cpp.s
+
+build/XML.o: build/XML.cpp.o
+
+.PHONY : build/XML.o
+
+# target to build an object file
+build/XML.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build/XML.cpp.o
+.PHONY : build/XML.cpp.o
+
+build/XML.i: build/XML.cpp.i
+
+.PHONY : build/XML.i
+
+# target to preprocess a source file
+build/XML.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build/XML.cpp.i
+.PHONY : build/XML.cpp.i
+
+build/XML.s: build/XML.cpp.s
+
+.PHONY : build/XML.s
+
+# target to generate assembly for a file
+build/XML.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/build/XML.cpp.s
+.PHONY : build/XML.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+pugixml.o: pugixml.cpp.o
+
+.PHONY : pugixml.o
+
+# target to build an object file
+pugixml.cpp.o:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/pugixml.cpp.o
+.PHONY : pugixml.cpp.o
+
+pugixml.i: pugixml.cpp.i
+
+.PHONY : pugixml.i
+
+# target to preprocess a source file
+pugixml.cpp.i:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/pugixml.cpp.i
+.PHONY : pugixml.cpp.i
+
+pugixml.s: pugixml.cpp.s
+
+.PHONY : pugixml.s
+
+# target to generate assembly for a file
+pugixml.cpp.s:
+	$(MAKE) -f CMakeFiles/Main.dir/build.make CMakeFiles/Main.dir/pugixml.cpp.s
+.PHONY : pugixml.cpp.s
 
 # Help Target
 help:
@@ -212,16 +293,25 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Proyecto2_Odissey"
-	@echo "... .idea/Chunk.o"
-	@echo "... .idea/Chunk.i"
-	@echo "... .idea/Chunk.s"
+	@echo "... Main"
 	@echo "... Base64.o"
 	@echo "... Base64.i"
 	@echo "... Base64.s"
-	@echo "... Odyssey_Server.o"
-	@echo "... Odyssey_Server.i"
-	@echo "... Odyssey_Server.s"
+	@echo "... Chunk.o"
+	@echo "... Chunk.i"
+	@echo "... Chunk.s"
+	@echo "... Oddysey_server.o"
+	@echo "... Oddysey_server.i"
+	@echo "... Oddysey_server.s"
+	@echo "... build/XML.o"
+	@echo "... build/XML.i"
+	@echo "... build/XML.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... pugixml.o"
+	@echo "... pugixml.i"
+	@echo "... pugixml.s"
 .PHONY : help
 
 

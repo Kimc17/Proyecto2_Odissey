@@ -1,45 +1,64 @@
+#include "pugixml.hpp"
+/*
 #include <iostream>
-#include <sstream>
-#include "XML/pugixml.hpp"
-#include "XML/XML_Editor.h"
+#include <stdio.h>
+#include <cstring>
 
+bool buscanombre(pugi::xml_node node);
+//g++ build/XML.cpp -pthread  Base64.cpp Chunk.cpp pugixml.cpp  Oddysey_server.cpp -o server
 
-int main() {
-    XML_Editor editor;
-    std::string metadata[][2] = {{"song_name", "Untitled"}, {"song_artist", "Simple plan"},
-                                 {"song_album", "Untitled"}, {"song_length", "2:00"}};
-    std::string songs[][3] = {{"Track 1", "unknown artist", "unknown album"},
-                              {"Track 3", "unknown artist", "unknown album"},
-                                      {"Track 3", "unknown artist", "unknown album"}};
-    std::string song= "1010100000110010110111110";
+int main()
+{
 
-    std::string doc = editor.writeUploadRequest(metadata, song, sizeof(metadata)/ sizeof(metadata[0]));
-    std::cout << doc << std::endl;
+    pugi::xml_document doc;
 
-    doc = editor.readMessage(doc.c_str());
+    // Se carga el documento
+    pugi::xml_parse_result result = doc.load_file("players.xml");
 
-    doc = editor.writeEditRequest("Untitled", "Simple plan");
-    std::cout << doc << std::endl;
+    // Se comprueba que el documento se ha parseado bien
+    std::cout << "Load result: " << result.description() << std::endl;
 
-    doc = editor.writeEditResponse(metadata, sizeof(metadata)/ sizeof(metadata[0]));
-    std::cout << doc << std::endl;
+    // Se asigna a una variable el primer nodo del documento
+    pugi::xml_node players = doc.first_child();
 
-    doc = editor.writeAlbumSearchRequest("unknown album");
-    std::cout << doc << std::endl;
+    // Se busca por predicado el nodo buscado: <PlayerList>
+    // El predicado es la función buscanombre, que está definida y comentada al final del documento.
+    // La función find_node hace una búsqueda recursiva sobre el SUBárbol que define el nodo al que se aplica.
+    // es decir, se debe aplicar a un nodo que sea padre en algún grado del nodo buscado.
+    std::cout << "Encontrado: " << players.find_node(buscanombre).name() << std::endl;
 
-    doc = editor.writeSearchResponse(songs, 3);
-    std::cout << doc << std::endl;
+    // La parte que sigue aquí son iteraciones para buscar <PlayerList> de forma manual
+    // así se ilustran las dos formas de buscar nodos. Esto es por tanto redundante
+    std::cout << "Nodo: " << players.name() << " (" << players.type() << "): " << players.child_value() << std::endl;
 
-    doc = editor.writeArtistSearchRequest("unknown artist");
-    std::cout << doc << std::endl;
+    players = players.first_child();
+    std::cout << "Nodo: " << players.name() << " (" << players.type() << "): " << players.child_value() << std::endl;
 
-    doc = editor.writeSearchResponse(songs, 3);
-    std::cout << doc << std::endl;
+    while (strcmp(players.name(),"Team")) {
+        players = players.next_sibling();
+        std::cout << "Nodo: " << players.name() << " (" << players.type() << "): " << players.child_value() << std::endl;
+    }
 
-    doc = editor.writeNameSearchRequest("Track 1");
-    std::cout << doc << std::endl;
+    players = players.first_child();
+    std::cout << "Nodo: " << players.name() << " (" << players.type() << "): " << players.child_value() << std::endl;
 
-    doc = editor.writeSearchResponse(songs, 3);
-    std::cout << doc << std::endl;
+   while (strcmp(players.name(),"PlayerList")) {
+        players = players.next_sibling();
+        std::cout << "Nodo: " << players.name() << " (" << players.type() << "): " << players.child_value() << std::endl;
+    }
+    players = players.first_child();
+
+    while (players) {
+        std::cout << "Jugador: " << players.first_child().next_sibling().child_value() << std::endl;
+        players = players.next_sibling();
+    }
+
+    getchar();
+    return 0;
 }
 
+
+bool buscanombre(pugi::xml_node node)
+{
+    return (!strcmp(node.name(), "PlayerList"));
+}

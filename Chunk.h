@@ -15,7 +15,6 @@ private:
 public:
     size_t  Dividir(char nombre[]);
     int tamanio();
-    void Guardar(char *chunk, size_t result);
     std::string Abase64(std::string);
     std::string Debase64(std::string);
 

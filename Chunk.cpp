@@ -21,10 +21,16 @@ size_t  Chunk::Dividir(char *nombre) {
                 fputs("Reading error", stderr);
                 exit(3);
             }
+        FILE *subfic;
+        subfic = fopen("1.mp3", "wb");
+        if (subfic != NULL) {
+        }
+        fwrite(chunk, result, SIZE, subfic);
+        fclose(subfic);
         fclose(fichero);
         return result;
-
         }
+
     }
 
 
@@ -37,14 +43,6 @@ int Chunk::tamanio() {
 
 }
 
-void Chunk::Guardar(char *chunk, size_t result) {
-    FILE *subfic;
-    subfic = fopen("1.mp3", "wb");
-    if (subfic != NULL) {
-    }
-    fwrite(chunk, result, SIZE, subfic);
-    fclose(subfic);
-}
 
 string Chunk::Abase64(string resultado) {
     Base64 *base = new Base64();
