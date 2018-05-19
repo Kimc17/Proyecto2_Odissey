@@ -1,14 +1,10 @@
-
 #include "Oddysey_server.h"
 #include "pugixml.hpp"
-
 
 /* Pasos para la ejecucion del servidor:
  * 1. Abrir una terminal
  * 2. Cambiar el directorio con: cd C-
  * 3. Escribir el comando: g++ Base64.cpp Chunk.cpp pugixml.cpp  Odyssey_Server.cpp -o server
-
-
 a-ljsoncpp -std=c++11
 
  * 4. Ingresar ./server
@@ -78,38 +74,51 @@ int Server::crear() {
         perror("Fallo aceptado");
         return 1;
     }
-
-
-
 }
 
 using namespace std;
 void *manejador_conexion(void *socket_desc) {
-
-
     //Se obtiene el descriptor del socket
     int sock = *(int *) socket_desc;
     int read_size;
     char client_message[200];
-    const char *message;
-    //Recibir mensajes al cliente
-    while ((read_size = recv(sock, client_message, 2500, 0)) > 0) {
+
+
+
+
+    //Recibir mensajes del cliente
+    while ((read_size = recv(sock, client_message, 300, 0)) > 0) {
         client_message[read_size] = '\0';
+
        // Enviar mensaje de vuelta al cliente
         pugi::xml_document doc;
-        pugi::xml_parse_result result = doc.load_file("utf8test.xml");
-        cout << doc.name()<< endl;
+        pugi::xml_parse_result result = doc.load_file("ejemplo.xml");
 
-        vector<char> p;
-        send(sock, doc.name(),300,0);
-        // send(sock,mensaje,1000,0);
+
+        // Escribe un documento xml completo en stdout
+        //std :: cout << "\nchar:" << std :: endl;
+        //doc.save (std :: cout, "" );
+
+
+        // Escribe un documento xml completo en la secuencia de cadenas
+        std :: cout << "\nEscribe el documento xml en stringstream:" << std :: endl;
+        std :: stringstream ss;
+        doc.save (ss, "" );
+        std :: cout << "El XML es: \n" << ss.str () << std :: endl;
+        ss.str()+= "+";
+
+
+
+        send(sock,ss.str().c_str(),ss.str().length(),0);
         write(sock, "Probando", 8);
         //memset(client_message, 0, 2000);
+
+        //Mensaje recibido por el cliente
         cout << "Recibido "<< client_message<< endl;
 
     }
 
-    // Si se desconecta el cliente (en este caso se cierra la terminal)
+    // Si se desconecta el cliente
     if (read_size == 0) {
         puts("Cliente desconectado");
         fflush(stdout);
@@ -118,9 +127,3 @@ void *manejador_conexion(void *socket_desc) {
     }
 
 }
-
-
-
-
-
-

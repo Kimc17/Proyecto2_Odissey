@@ -8,13 +8,17 @@ CMakeFiles/Main.dir/Chunk.cpp.o: ../Base64.h
 CMakeFiles/Main.dir/Chunk.cpp.o: ../Chunk.cpp
 CMakeFiles/Main.dir/Chunk.cpp.o: ../Chunk.h
 
-CMakeFiles/Main.dir/build/XML.cpp.o: ../build/XML.cpp
-CMakeFiles/Main.dir/build/XML.cpp.o: ../build/XML.h
-CMakeFiles/Main.dir/build/XML.cpp.o: ../pugiconfig.hpp
-CMakeFiles/Main.dir/build/XML.cpp.o: ../pugixml.hpp
+CMakeFiles/Main.dir/Oddysey_server.cpp.o: ../Oddysey_server.cpp
+CMakeFiles/Main.dir/Oddysey_server.cpp.o: ../Oddysey_server.h
+CMakeFiles/Main.dir/Oddysey_server.cpp.o: ../pugiconfig.hpp
+CMakeFiles/Main.dir/Oddysey_server.cpp.o: ../pugixml.hpp
 
-CMakeFiles/Main.dir/main.cpp.o: ../build/XML.h
+
 CMakeFiles/Main.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Main.dir/main.cpp.o: ../pugiconfig.hpp
 CMakeFiles/Main.dir/main.cpp.o: ../pugixml.hpp
+
+CMakeFiles/Main.dir/pugixml.cpp.o: ../pugiconfig.hpp
+CMakeFiles/Main.dir/pugixml.cpp.o: ../pugixml.cpp
+CMakeFiles/Main.dir/pugixml.cpp.o: ../pugixml.hpp
 
