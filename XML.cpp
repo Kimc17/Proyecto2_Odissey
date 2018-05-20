@@ -29,6 +29,25 @@ string valorHijo(pugi::xml_node nodo){
 pugi::xml_node IralHijo(pugi::xml_node nodo){
     return  nodo.next_sibling();
 }
+
+/*
+void Crear()
+{
+    pugi::xml_document doc;
+
+    auto nodo= doc.append_child(pugi::node_declaration);
+    nodo.append_attribute("version")    = "1.0";
+    nodo.append_attribute("encoding")   = "ISO-8859-1";
+    nodo.append_attribute("standalone") = "yes";
+    // A valid XML doc must contain a single root node of any name
+    auto root = doc.append_child("MyRoot");
+    // Save XML tree to file.
+    // Remark: second optional param is indent string to be used;
+    // default indentation is tab character.
+    bool saveSucceeded = doc.save_file(XML_FILE_PATH.c_str(), PUGIXML_TEXT("  "));
+    assert(saveSucceeded);
+    /// [create new xml file]
+}
 /*
 pugi::xml_document XML::AgregarNodo(pugi::xml_document doc, char nombre[], char descripcion[], char valor[] ) {
     pugi::xml_node node = doc.append_child(nombre);
