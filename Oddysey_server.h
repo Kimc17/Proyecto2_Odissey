@@ -14,12 +14,14 @@
 #include<unistd.h>    //Permite el write
 #include<pthread.h> //Biblioteca de Threads , asociada a lpthread
 #include <jsoncpp/json/json.h>
+#include "XML.h"
 //#include "pugixml.cpp"
 
 
 class Server {
 public:
     int crear();
+
 
 
 
